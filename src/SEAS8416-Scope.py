@@ -3,7 +3,7 @@ import funct3
 a = 1
 b = 2
 
-for i in range(2):
+for i in range(4):
     a = i
 
 def funct2():
@@ -19,5 +19,7 @@ def funct1():
         d = 6
         funct2()
     return
+
+print(funct3.cube(5))
 
 funct1()

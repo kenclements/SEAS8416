@@ -7,4 +7,5 @@ def funct3():
     return
 
 def cube(x):
-    return math.pow(x, 3)
+    answer = math.pow(x, 3)
+    return answer
